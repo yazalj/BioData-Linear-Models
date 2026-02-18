@@ -22,10 +22,31 @@ The workflows cover morphological traits (e.g., insect mass and reproductive age
 ## Tech Stack & Packages
 * **Language:** R
 * **Data Manipulation:** Base R, factors management
-* **Statistical Modeling:** `lm()`, `car`, `effects`, `psych`
-* **Data Visualization:** `ggplot2` (custom themes, error bars, ribbon confidence intervals), `ggpubr`
+* **Statistical Modeling and Data Visualization:** `lm()`, `car`, `effects`, `psych`, `ggpubr`
 
 ## Key Competencies Demonstrated
 * Implementation of dummy coding for multi-level categorical variables.
 * Extraction of predicted values and confidence intervals from linear models.
 * Creation of layered, publication-quality plots (scatter plots with jitter, error bars, and regression lines with confidence ribbons).
+
+<table>
+  <tr>
+    <td align="center">
+      <img src="https://github.com/user-attachments/assets/530ef7b3-870e-4267-807b-86e173967966" width="100%" />
+      <br />
+      <sub><b>Continuous Variables</b></sub>
+    </td>
+    <td align="center">
+      <img src="https://github.com/user-attachments/assets/af8506c3-9150-437c-a5e9-2b3f6e576a16" width="100%" />
+      <br />
+      <sub><b>Categorical Variables</b></sub>
+    </td>
+    <td align="center">
+      <img src="https://github.com/user-attachments/assets/59aae272-376c-47ae-85af-9d8c2de0949d" width="100%" />
+      <br />
+      <sub><b>Interactions</b></sub>
+    </td>
+  </tr>
+</table>
+
+
