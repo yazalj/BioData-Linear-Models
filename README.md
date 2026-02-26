@@ -28,6 +28,36 @@ The workflows cover morphological traits (e.g., insect mass and reproductive age
 * Rigorous diagnostic testing for model assumptions (Normality, Homoscedasticity, Multicollinearity) and influential outlier detection (Cook's Distance, DFBETAS).
 * Creation of publication-quality effect displays featuring confidence bands to accurately visualize main effects and complex interaction terms.
 
+## Installation & Usage
+To run these workflows locally on your machine:
+
+1. **Clone the repository:**
+   
+   ````bash
+   git clone (https://github.com/yazalj/BioData-Linear-Models.git)
+   cd BioData-Linear-Models
+   ````
+   
+3. **Prerequisites:**
+   
+   Ensure you have R and RStudio installed.
+   
+4. **Install Dependencies:**
+   
+   The scripts utilize the `pacman` package manager for clean environment setup. You only need to install `pacman` directly; it will automatically install and load all other required packages when you run the scripts.
+
+   ````bash
+   install.packages("pacman")
+   ````
+   
+5. **Execution:**
+
+   - Open any of the .Rmd files located in the scripts/ directory using RStudio.
+
+   - Click the "Knit" button in RStudio. This will automatically execute the code, source the datasets from the data/ folder via relative paths, and generate a clean HTML report.
+
+
+
 <table>
   <tr>
     <td align="center">
